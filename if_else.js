@@ -25,7 +25,7 @@
  }
  */
 
-var login = prompt("Введитье ваш логин", "");
+/*var login = prompt("Введитье ваш логин", "");
 
 if(login === "Админ"){
     var password = prompt("Введите ваш пароль", "");
@@ -40,7 +40,17 @@ if(login === "Админ"){
     alert("Вход отменен!");
 } else {
     alert("Я вас не знаю");
-}
+}*/
 
+var a, b, result;
+a = 1;
+b = 5;
+a + b < 4 ? result = "Мало" : result = "Много";
 
+alert(result);
 
+var login = prompt("Login ", "");
+var message = (login == 'Вася') ?  'Привет' :
+    (login == 'Директор') ? 'Здравствуйте':
+        (login == '') ?   'Нет логина':
+            '';
