@@ -25,4 +25,24 @@ function sumTo1(n){
     return n * (n + 1)/2
 }
 
-alert(sumToRecursion(2));
+/**************Task 2***********************************/
+
+function factorial(n){
+    if(n == 1){
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+
+/**************Task 3***********************************/
+function fib(n){
+    if(n <= 1){
+        return n;
+    } else {
+        return fib(n - 1) + fib(n - 2);
+    }
+}
+
+alert(fib(7));
