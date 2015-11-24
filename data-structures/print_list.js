@@ -12,7 +12,7 @@ function printList2(list) {
     alert( list.value );
 
     if (list.next) {
-        printList(list.next);
+        printList2(list.next);
     }
 }
 
@@ -32,7 +32,7 @@ function printReverseList(list) {
 function printReverseList2(list) {
 
     if (list.next) {
-        printReverseList(list.next);
+        printReverseList2(list.next);
     }
 
     alert( list.value );
