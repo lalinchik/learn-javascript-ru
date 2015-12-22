@@ -11,9 +11,9 @@ function checkAge(age){
     return (age > 18) ? true : confirm('Родители разрешили?');
 }
 
-function checkAge(age){
-    return (age > 18) || confirm('Родители разрешили?');
-}
+//function checkAge(age){
+//    return (age > 18) || confirm('Родители разрешили?');
+//}
 
 /**********Task 2***************/
 function min(a, b){
@@ -22,7 +22,7 @@ function min(a, b){
 
 /**********Task 3***************/
 function pow(a, b){
-    var  result;
+    var  result = 0;
     for(var i = 0; i < b; i++){
         result *= a;
     }

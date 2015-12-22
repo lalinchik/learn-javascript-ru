@@ -1,6 +1,4 @@
-/**
- * Created by Alina on 18.11.2015.
- */
+
 function ucFirst(str) {
     if (!str) return str;
     var newStr = str[0].toUpperCase() + str.slice(1);
