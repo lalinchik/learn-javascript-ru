@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 7</title>
+</head>
+<body>
+<script>
+    "use strict";
+
+    var obj = {
+        className: 'open menu'
+    };
+
+    function addClass(obj, cls) {
+        let classes = obj.className ? obj.className.split(" ") : [];
+
+        for (let i = 0; i < classes.length; i++) {
+            if (classes[i] == cls) {
+                return;
+            }
+        }
+
+        classes.push(cls);
+
+        obj.className = classes.join(" ");
+
+    }
+</script>
+</body>
+</html>
